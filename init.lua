@@ -17,7 +17,7 @@ vim.opt.shiftwidth = 4 -- 自动缩进时每级缩进 4 空格
 vim.opt.expandtab = true -- 将 Tab 转换为空格
 
 -- 自动换行与折行
-vim.opt.wrap = false -- 不自动折行
+vim.opt.wrap = true -- 不自动折行
 vim.opt.linebreak = true -- 在单词边界处折行
 
 -- 搜索时忽略大小写，除非包含大写字母
